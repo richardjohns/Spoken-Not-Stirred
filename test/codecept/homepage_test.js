@@ -1,7 +1,7 @@
 
 Feature('html');
 
-Scenario('test something', (I) => {
+Scenario('homepage loads', (I) => {
     I.amOnPage("/");
     I.see("Spoken,");
 });
